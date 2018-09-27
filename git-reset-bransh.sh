@@ -19,7 +19,7 @@ greset() {
 
         read item
         if [ "$item" == "Y" ] || [ "$item" == "y" ] ; then
-            $($str_command)
+            eval $str_command
         fi
 
     else
