@@ -5,9 +5,8 @@ greset() {
     local off='\033[0m'       # Text Reset
     local red='\033[0;31m'
     local cyan='\033[0;36m'
-    local blue='\033[0;34m'
     local green='\033[0;32m'
-    local Green='\033[1;32m' # ищдв
+    local Green='\033[1;32m' # BOLD
 
     if git rev-parse --git-dir > /dev/null 2>&1
     then
